@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: Arial, Serif;
+    margin-top: 5px;
+    background-color: lightblue;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.links {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.links a {
+    margin-left: 5px;
+    text-decoration: none;
+    background-color: lightblue;
+    text-space: 5px;
+    color: black;
+    border-style: solid;
+    text-align: center;
+    width: 100%;
+
+}
+
+.Inleiding {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 1180px) {
+    .title {
+        font-size: xxx-large;
+    }
+    a {
+        font-size: xxx-large;
+    }
+}
