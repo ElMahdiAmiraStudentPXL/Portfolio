@@ -17,18 +17,23 @@
     text-align: center;
 }
 
-.links a {
+.links div {
     margin-left: 5px;
-    text-decoration: none;
+    margin-top: 5px;
     background-color: lightblue;
     text-space: 5px;
-    color: black;
     border-style: solid;
-    text-align: center;
     width: 100%;
-
 }
 
+.links a {
+    color: black;
+    text-decoration: none;
+}
+
+.links div:hover {
+    background-color: gray;
+}
 .Inleiding {
     margin-top: 15px;
 }
@@ -39,5 +44,12 @@
     }
     a {
         font-size: xxx-large;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    .links div{
+        width: 25%;
+        display: inline-block;
     }
 }
