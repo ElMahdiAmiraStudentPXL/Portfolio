@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title {
+    font-family: Arial, sans-serif;
+    margin-top: 5px;
+    background-color: lightblue;
+    font-size: xx-large;
+    text-align: center;
+}
+
+iframe {
+    width: 500px;
+    height: 800px;
+}

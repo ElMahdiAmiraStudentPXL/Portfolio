@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title {
+    font-family: Arial, sans-serif;
+    margin-top: 5px;
+    background-color: lightblue;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.links {
+    margin-top: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.links div {
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: lightblue;
+    text-space: 5px;
+    border-style: solid;
+    width: 98%;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+}
+
+.links div:hover {
+    background-color: gray;
+}
+@media screen and (min-width: 480px) {
+    .links div {
+        width: 40%;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    a {
+        font-size: xx-large;
+    }
+}
+
+.title {
+    font-family: Arial, sans-serif;
+    margin-top: 5px;
+    background-color: lightblue;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.Inleiding h1{
+    margin: 5px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+.Inleiding_h2{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.Inleiding p {
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-family: Arial, sans-serif;
+}
